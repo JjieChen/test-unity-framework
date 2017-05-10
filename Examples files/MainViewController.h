@@ -9,9 +9,10 @@
 //#import "UnityAppController.h"
 ////#import "UI/UnityView.h"
 //#import "UI/UnityViewControllerBase.h"
+
 #import <UnityOutFramework/UnityOutFramework.h>
-//#import <UnityOutFramework/UnityAppController.h>
-//#import <UnityOutFramework/UI/UnityViewControllerBase.h>
+#import <UnityOutFramework/UnityAppController.h>
+#import <UnityOutFramework/UI/UnityViewControllerBase.h>
 
 @interface MainViewController : UIViewController
 {
