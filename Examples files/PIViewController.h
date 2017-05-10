@@ -9,10 +9,7 @@
 //#import "UnityAppController.h"
 ////#import "UI/UnityView.h"
 //#import "UI/UnityViewControllerBase.h"
-#import <UnityOutFramework/UI/UnityViewControllerBaseiOS.h>
-#import <UnityOutFramework/UnityAppController.h>
-#import <UnityOutFramework/UI/UnityView.h>
-//#import <UnityOutFramework/UI/UnityViewControllerBase.h>
+#import <UnityOutFramework/UnityOutFramework.h>
 
 @interface PIViewController : UIViewController
 {

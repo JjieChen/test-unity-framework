@@ -10,16 +10,11 @@
 
 // Import this default headers to make Unity and Vuforia works
 #import <UIKit/UIKit.h>
-//#import <UnityOutFramework/UnityOutFramework.h>
+#import <UnityOutFramework/UnityOutFramework.h>
 
 //#import "UnityAppController.h"
 //#import "UI/UnityView.h"
 //#import "UI/UnityViewControllerBase.h"
-#import <UnityOutFramework/UnityAppController.h>
-#import <UnityOutFramework/UI/UnityView.h>
-#import <UnityOutFramework/UI/UnityViewControllerBaseiOS.h>
-
-
 
 // This is your MAIN VIEWCONTROLLER, that controller you want to open first when build/open your app.
 #import "MainViewController.h"
