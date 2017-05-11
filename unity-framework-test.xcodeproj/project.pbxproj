@@ -13,12 +13,13 @@
 		0A3A3B041EC0713700CE76AE /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3A3B001EC070C500CE76AE /* MediaToolbox.framework */; };
 		0A3A3B061EC0714D00CE76AE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3A3B051EC0714D00CE76AE /* MediaPlayer.framework */; };
 		0A3A3B081EC0741C00CE76AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3A3B071EC0741C00CE76AE /* CoreLocation.framework */; };
-		0A5324BD1EC2FC2C00CC4448 /* UnityOutFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5324BC1EC2FC2C00CC4448 /* UnityOutFramework.framework */; };
 		0A5D193A1EC219FA00045554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D19341EC219FA00045554 /* Main.storyboard */; };
 		0A5D193B1EC219FA00045554 /* mainAppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D19351EC219FA00045554 /* mainAppController.mm */; };
-		0A5D193C1EC219FA00045554 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D19371EC219FA00045554 /* MainViewController.m */; };
-		0A5D193D1EC219FA00045554 /* PIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D19391EC219FA00045554 /* PIViewController.m */; };
-		8594323D1EBF96640029A408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8594323C1EBF96640029A408 /* main.m */; };
+		0A5D193C1EC219FA00045554 /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D19371EC219FA00045554 /* MainViewController.mm */; };
+		0A5D193D1EC219FA00045554 /* PIViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D19391EC219FA00045554 /* PIViewController.mm */; };
+		0AC90B431EC45B1A008F7B2F /* UnityOutFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC90B421EC45B1A008F7B2F /* UnityOutFramework.framework */; };
+		0AC90B451EC467D8008F7B2F /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 0AC90B441EC467D8008F7B2F /* Data */; };
+		8594323D1EBF96640029A408 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8594323C1EBF96640029A408 /* main.mm */; };
 		859432401EBF96640029A408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8594323F1EBF96640029A408 /* AppDelegate.m */; };
 		859432431EBF96640029A408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859432421EBF96640029A408 /* ViewController.m */; };
 		859432461EBF96640029A408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859432441EBF96640029A408 /* Main.storyboard */; };
@@ -47,15 +48,16 @@
 		0A3A3B021EC0712100CE76AE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		0A3A3B051EC0714D00CE76AE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		0A3A3B071EC0741C00CE76AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		0A5324BC1EC2FC2C00CC4448 /* UnityOutFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityOutFramework.framework; sourceTree = "<group>"; };
 		0A5D19341EC219FA00045554 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0A5D19351EC219FA00045554 /* mainAppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mainAppController.mm; sourceTree = "<group>"; };
 		0A5D19361EC219FA00045554 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		0A5D19371EC219FA00045554 /* MainViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = MainViewController.m; sourceTree = "<group>"; };
+		0A5D19371EC219FA00045554 /* MainViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = MainViewController.mm; sourceTree = "<group>"; };
 		0A5D19381EC219FA00045554 /* PIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIViewController.h; sourceTree = "<group>"; };
-		0A5D19391EC219FA00045554 /* PIViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = PIViewController.m; sourceTree = "<group>"; };
+		0A5D19391EC219FA00045554 /* PIViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = PIViewController.mm; sourceTree = "<group>"; };
+		0AC90B421EC45B1A008F7B2F /* UnityOutFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityOutFramework.framework; sourceTree = "<group>"; };
+		0AC90B441EC467D8008F7B2F /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		859432381EBF96640029A408 /* unity-framework-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unity-framework-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8594323C1EBF96640029A408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8594323C1EBF96640029A408 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		8594323E1EBF96640029A408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8594323F1EBF96640029A408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		859432411EBF96640029A408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -78,7 +80,7 @@
 				0A3A3B031EC0712100CE76AE /* CoreMedia.framework in Frameworks */,
 				0A3A3AFF1EC0701E00CE76AE /* AVFoundation.framework in Frameworks */,
 				0A3A3AFD1EC06F3400CE76AE /* AudioToolbox.framework in Frameworks */,
-				0A5324BD1EC2FC2C00CC4448 /* UnityOutFramework.framework in Frameworks */,
+				0AC90B431EC45B1A008F7B2F /* UnityOutFramework.framework in Frameworks */,
 				85DF23091EBFC1E0008A37A8 /* libstdc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,9 +94,9 @@
 				0A5D19341EC219FA00045554 /* Main.storyboard */,
 				0A5D19351EC219FA00045554 /* mainAppController.mm */,
 				0A5D19361EC219FA00045554 /* MainViewController.h */,
-				0A5D19371EC219FA00045554 /* MainViewController.m */,
+				0A5D19371EC219FA00045554 /* MainViewController.mm */,
 				0A5D19381EC219FA00045554 /* PIViewController.h */,
-				0A5D19391EC219FA00045554 /* PIViewController.m */,
+				0A5D19391EC219FA00045554 /* PIViewController.mm */,
 			);
 			path = "Examples files";
 			sourceTree = "<group>";
@@ -102,6 +104,7 @@
 		8594322F1EBF96640029A408 = {
 			isa = PBXGroup;
 			children = (
+				0AC90B441EC467D8008F7B2F /* Data */,
 				0A5D19331EC219FA00045554 /* Examples files */,
 				8594323A1EBF96640029A408 /* unity-framework-test */,
 				859432391EBF96640029A408 /* Products */,
@@ -136,7 +139,7 @@
 		8594323B1EBF96640029A408 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8594323C1EBF96640029A408 /* main.m */,
+				8594323C1EBF96640029A408 /* main.mm */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,7 +154,7 @@
 				0A3A3AFE1EC0701E00CE76AE /* AVFoundation.framework */,
 				0A3A3AFC1EC06F3400CE76AE /* AudioToolbox.framework */,
 				85DF23081EBFC1E0008A37A8 /* libstdc++.tbd */,
-				0A5324BC1EC2FC2C00CC4448 /* UnityOutFramework.framework */,
+				0AC90B421EC45B1A008F7B2F /* UnityOutFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			files = (
 				8594324B1EBF96640029A408 /* LaunchScreen.storyboard in Resources */,
 				859432481EBF96640029A408 /* Assets.xcassets in Resources */,
+				0AC90B451EC467D8008F7B2F /* Data in Resources */,
 				859432461EBF96640029A408 /* Main.storyboard in Resources */,
 				0A5D193A1EC219FA00045554 /* Main.storyboard in Resources */,
 			);
@@ -231,11 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				859432431EBF96640029A408 /* ViewController.m in Sources */,
-				0A5D193D1EC219FA00045554 /* PIViewController.m in Sources */,
+				0A5D193D1EC219FA00045554 /* PIViewController.mm in Sources */,
 				859432401EBF96640029A408 /* AppDelegate.m in Sources */,
 				0A5D193B1EC219FA00045554 /* mainAppController.mm in Sources */,
-				0A5D193C1EC219FA00045554 /* MainViewController.m in Sources */,
-				8594323D1EBF96640029A408 /* main.m in Sources */,
+				0A5D193C1EC219FA00045554 /* MainViewController.mm in Sources */,
+				8594323D1EBF96640029A408 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
