@@ -12,6 +12,7 @@
 #import "AppDelegate.h"
 
 //void UnityInitTrampoline();
+const char* AppControllerClassName = "AppDelegate";
 
 int main(int argc, char * argv[]) {
     
@@ -22,6 +23,6 @@ int main(int argc, char * argv[]) {
         //UnityInitTrampoline();
         UnityInitRuntime(argc, argv);
         
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, [NSString stringWithUTF8String: AppControllerClassName]);
     }
 }
